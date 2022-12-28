@@ -125,3 +125,23 @@ Console.WriteLine("Ternary conditional operator: x > y ? X : y = " + greateNumbe
 
 Console.WriteLine("********************");
 
+switch (DateTime.Now.DayOfWeek)
+{
+    case DayOfWeek.Monday:
+        Console.WriteLine("It's Monday ;(");
+        break;
+        case
+    DayOfWeek.Friday:
+        Console.WriteLine("The last day of the work week");
+        break;
+        case DayOfWeek.Sunday:
+    case DayOfWeek.Saturday:
+        Console.WriteLine("The weekend!");
+        break;
+        default: 
+        Console.WriteLine("The middle of the work week");
+        break;
+}
+Console.WriteLine("************************");
+
+
